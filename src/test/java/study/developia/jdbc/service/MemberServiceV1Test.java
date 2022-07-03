@@ -1,12 +1,10 @@
 package study.developia.jdbc.service;
 
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
-import study.developia.jdbc.connection.ConnectionConst;
 import study.developia.jdbc.domain.Member;
 import study.developia.jdbc.repository.MemberRepositoryV1;
 
@@ -14,7 +12,6 @@ import java.sql.SQLException;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
-import static org.junit.jupiter.api.Assertions.*;
 import static study.developia.jdbc.connection.ConnectionConst.*;
 
 /**

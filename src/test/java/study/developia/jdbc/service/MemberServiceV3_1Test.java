@@ -9,7 +9,6 @@ import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.transaction.PlatformTransactionManager;
 import study.developia.jdbc.domain.Member;
-import study.developia.jdbc.repository.MemberRepositoryV2;
 import study.developia.jdbc.repository.MemberRepositoryV3;
 
 import java.sql.SQLException;
