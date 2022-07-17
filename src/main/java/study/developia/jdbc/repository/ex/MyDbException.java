@@ -1,6 +1,6 @@
 package study.developia.jdbc.repository.ex;
 
-public class MyDbException extends RuntimeException{
+public class MyDbException extends RuntimeException {
     public MyDbException() {
     }
 
