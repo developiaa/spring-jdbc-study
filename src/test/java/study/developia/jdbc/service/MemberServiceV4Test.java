@@ -12,6 +12,7 @@ import org.springframework.context.annotation.Bean;
 import study.developia.jdbc.domain.Member;
 import study.developia.jdbc.repository.MemberRepository;
 import study.developia.jdbc.repository.MemberRepositoryV4_1;
+import study.developia.jdbc.repository.MemberRepositoryV4_2;
 
 import javax.sql.DataSource;
 
@@ -45,7 +46,8 @@ class MemberServiceV4Test {
 
         @Bean
         MemberRepository memberRepository() {
-            return new MemberRepositoryV4_1(dataSource);
+//            return new MemberRepositoryV4_1(dataSource);
+            return new MemberRepositoryV4_2(dataSource);
         }
 
         @Bean
